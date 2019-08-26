@@ -17,8 +17,7 @@ class Widget : public QWidget
     QFormLayout* f_layout;
 
     QLineEdit* pn_line_edit;
-    QLineEdit* csv_line_edit;
-    QLineEdit* reg_exp_line_edit;
+    QLineEdit* csv_line_edit;    
     QLineEdit* out_line_edit;
 
     QPushButton* go_button;

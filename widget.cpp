@@ -26,6 +26,7 @@ Widget::Widget(QWidget *parent) : QWidget(parent)
 
     this->setLayout(v_layout);
     this->setGeometry(500,500,700,500);
+    this->setWindowTitle("Vivado-to-CES package delay converter");
 
     connect(go_button,SIGNAL(clicked()),this,SLOT(process()));
 
